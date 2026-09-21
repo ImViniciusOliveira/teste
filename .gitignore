@@ -1,4 +1,3 @@
-HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -8,12 +7,13 @@ target/
 .env
 *.env
 
-### Arquivos de Documentação e Dados de Teste ###
+### Documentação Local ###
+docs/
 *.md
+
+### Dados de Amostra e Teste ###
 *.rel
 *.txt
-arquivos_para_teste/
-cenarios_de_teste/
 src/test/resources/cenarios/
 src/test/resources/originais/
 src/test/resources/*.rel
