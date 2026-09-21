@@ -1,0 +1,48 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Variáveis de Ambiente e Segredos ###
+.env
+*.env
+
+### Arquivos de Documentação e Dados de Teste ###
+*.md
+*.rel
+*.txt
+arquivos_para_teste/
+cenarios_de_teste/
+src/test/resources/cenarios/
+src/test/resources/originais/
+src/test/resources/*.rel
+src/test/resources/*.txt
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
